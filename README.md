@@ -1,0 +1,2 @@
+# philoserf.com
+wp-sync
