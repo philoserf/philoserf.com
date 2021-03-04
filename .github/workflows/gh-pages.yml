@@ -11,13 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+<<<<<<< HEAD
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+=======
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+>>>>>>> f178443 (Create gh-pages.yml)
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
+<<<<<<< HEAD
           hugo-version: "latest"
+=======
+          hugo-version: 'latest'
+>>>>>>> f178443 (Create gh-pages.yml)
           extended: true
 
       - name: Build
