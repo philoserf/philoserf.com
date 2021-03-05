@@ -38,14 +38,14 @@ menu:
     - name: Now
       url: now/
       weight: 1
+    - name: The rules
+      url: the_rules/
+      weight: 2
     - name: Articles
       url: posts/
-      weight: 2
+      weight: 3
     - name: Kit
       url: kit/
-      weight: 3
-    - name: The Rules
-      url: the_rules/
       weight: 4
     - name: About
       url: about/
