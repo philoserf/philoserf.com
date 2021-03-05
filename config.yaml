@@ -1,0 +1,63 @@
+baseurl: "http://www.example.com"
+title: philoserf
+theme: coder
+
+params:
+  author: Mark Ayers
+  # avatarurl: images/avatar.jpg
+  description: The journal of a philosopher serf
+  info: A human being, being human
+  keywords: "blog,developer,personal"
+  # favicon_16: /img/favicon-16x16.png
+  # favicon_32: /img/favicon-32x32.png
+  footercontent: That is all. Nothing to see here. Move along.
+  social:
+    - icon: fa fa-github fa-2x
+      name: Github
+      url: "https://github.com/philoserf/"
+      weight: 1
+    - icon: fa fa-twitter fa-2x
+      name: Twitter
+      url: "https://twitter.com/philoserf/"
+      weight: 2
+  hideCopyright: false
+  hideCredits: false
+  hideFooter: false
+  since: 1993
+  enableTwemoji: true
+  colorScheme: auto
+  hidecolorschemetoggle: false
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - name: Now
+      url: now/
+      weight: 1
+    - name: Articles
+      url: posts/
+      weight: 2
+    - name: Kit
+      url: kit/
+      weight: 3
+    - name: The Rules
+      url: rules/
+      weight: 4
+    - name: About
+      url: about/
+      weight: 5
+    - name: Contact
+      url: contact/
+      weight: 6
+
+defaultcontentlanguage: en
+languagecode: en
+paginate: 20
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+pygmentsstyle: bw
+# disqusShortname: yourdiscussshortname
