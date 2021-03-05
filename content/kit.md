@@ -1,6 +1,5 @@
 ---
 title: Kit
-slug: kit
 ---
 
 Computing
