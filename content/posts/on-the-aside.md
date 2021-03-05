@@ -5,7 +5,7 @@ categories: []
 tags: []
 ---
 
-![aside](/aside.png)
+![aside](/img/aside.png)
 
 Aside: A comment or discussion that does not relate directly to the main subject being discussed; A digression.
 
