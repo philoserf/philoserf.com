@@ -1,6 +1,5 @@
 ---
 title: Contact
-slug: contact
 ---
 
     MARK AYERS

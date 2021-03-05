@@ -1,6 +1,5 @@
 ---
 title: "The rules"
-slug: rules
 ---
 
 - if it has a name do not give it another name

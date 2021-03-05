@@ -1,6 +1,5 @@
 ---
 title: About
-slug: about
 ---
 
 Mark lives in Rockford, Michigan—a small town on the Rogue River near Grand Rapids. He has lived in Jamestown, New York; Lilburn, Georgia; Dublin, Ohio; Edmonds, Washington; and a few U.S. Army bases. He lived in Italy for a year in the early 1980s and Turkey for a year in the early 1990s. He earned a degree in political science at The University at Albany, State University of New York.

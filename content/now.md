@@ -1,6 +1,5 @@
 ---
 title: Now
-slug: now
 ---
 
 Updated: 2020.02.21

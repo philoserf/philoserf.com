@@ -1,4 +1,4 @@
-baseurl: https://philoserf.com/"
+baseurl: https://philoserf.com
 title: philoserf
 theme: coder
 
@@ -45,7 +45,7 @@ menu:
       url: kit/
       weight: 3
     - name: The Rules
-      url: rules/
+      url: the_rules/
       weight: 4
     - name: About
       url: about/
