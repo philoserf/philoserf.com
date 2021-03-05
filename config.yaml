@@ -23,7 +23,7 @@ params:
   hideCopyright: false
   hideCredits: false
   hideFooter: false
-  since: 1993
+  since: 2016
   enableTwemoji: true
   colorScheme: auto
   hidecolorschemetoggle: false
