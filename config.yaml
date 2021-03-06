@@ -13,12 +13,16 @@ params:
   footercontent: That is all. Nothing to see here. Move along.
   social:
     - icon: fa fa-github fa-2x
-      name: Github
+      name: GitHub
       url: "https://github.com/philoserf/"
       weight: 1
     - icon: fa fa-twitter fa-2x
       name: Twitter
       url: "https://twitter.com/philoserf/"
+      weight: 2
+    - icon: fa fa-linkedin fa-2x
+      name: LinkedIn
+      url: "https://linkedin.com/in/markpaulayers/"
       weight: 2
   hideCopyright: false
   hideCredits: false
