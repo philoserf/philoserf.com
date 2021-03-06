@@ -29,7 +29,7 @@ params:
   hidecolorschemetoggle: false
 
 taxonomies:
-  category: categories
+  category: topics
   tag: tags
   series: series
 

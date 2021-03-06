@@ -5,7 +5,7 @@ categories: []
 tags: []
 ---
 
-<https://www.nytimes.com/2018/02/13/us/politics/russia-sees-midterm-elections-as-chance-to-sow-fresh-discord-intelligence-chiefs-warn.html> 
+<https://www.nytimes.com/2018/02/13/us/politics/russia-sees-midterm-elections-as-chance-to-sow-fresh-discord-intelligence-chiefs-warn.html>
 
 How much of the today’s American political division was amplified with support from Russia? Perhaps it started long before we know. Perhaps it preceded Trump. Might everything since Reagan be part of some slow, cautious, steady, destabilization effort?
 

@@ -30,4 +30,4 @@ Fitness
 
 Backpacking
 
-= coming soon
+- coming soon
