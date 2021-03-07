@@ -1,6 +1,5 @@
 [![build](https://github.com/philoserf/philoserf.com/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/philoserf/philoserf.com/actions/workflows/build.yml)
 [![stability](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/)
-[![gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/philoserf/philoserf.com)
 
 # philoserf.com
 
