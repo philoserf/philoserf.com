@@ -3,6 +3,7 @@ title: How must an elector vote?
 date: 2019-10-08
 categories: []
 tags: []
+expiryDate: 2021-01-06
 ---
 
 <https://equalcitizens.us/electors-freedom-faqs/>
