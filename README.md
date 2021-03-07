@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/philoserf/philoserf.com)
+
 # philoserf.com
 
 This is the Hugo configuration of and content source for <https://philoserf.com>.
