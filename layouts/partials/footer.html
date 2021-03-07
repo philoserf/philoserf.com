@@ -57,7 +57,7 @@
     if .Site.Params.commit }} {{ if .GitInfo }} [<a
       href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}"
       >{{ .GitInfo.AbbreviatedHash }}</a
-    >] {{ end }} {{ end }}
+    >] {{ dateFormat 20060102 .Lastmod.UTC }}{{ end }} {{ end }}
   </section>
 </footer>
 {{ end }}
