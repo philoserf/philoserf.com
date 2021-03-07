@@ -3,4 +3,9 @@ image:
 
 tasks:
   - init: Start Hugo server 
+    command: git pull --recurse-submodules
     command: hugo server --baseUrl $(gp url 1313) --appendPort=false --disableFastRender --buildDrafts --buildFuture
+
+vscode:
+  extensions:
+    - budparr.language-hugo-vscode@1.2.0:ry4LgM76PAdiYvcNlW6+6g==
