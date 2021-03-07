@@ -6,6 +6,5 @@ ports:
     onOpen: open-preview
 
 tasks:
-  - init: Start Hugo server 
-    command: git pull --recurse-submodules
-    command: hugo server --baseUrl $(gp url 1313) --appendPort=false --disableFastRender --buildDrafts --buildFuture
+  - before: git pull --recurse-submodules
+    init: hugo server --baseUrl $(gp url 1313) --appendPort=false --disableFastRender --buildDrafts --buildFuture
