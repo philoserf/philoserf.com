@@ -28,6 +28,7 @@ params:
   hideCredits: false
   hideFooter: false
   since: 2016
+  commit: "https://github.com/philoserf/philoserf.com/tree/"
   enableTwemoji: true
   colorScheme: auto
   hidecolorschemetoggle: false
@@ -69,4 +70,3 @@ paginate: 20
 pygmentscodefences: true
 pygmentscodefencesguesssyntax: true
 pygmentsstyle: bw
-# disqusShortname: yourdiscussshortname
