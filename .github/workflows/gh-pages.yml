@@ -1,4 +1,4 @@
-name: build and deploy
+name: Build
 
 on:
   push:
@@ -11,22 +11,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           submodules: true
           fetch-depth: 0
 
-      - name: setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
           extended: true
 
-      - name: build
+      - name: Build
         run: hugo --minify --enableGitInfo
 
-      - name: deploy
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
