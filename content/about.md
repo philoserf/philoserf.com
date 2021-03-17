@@ -10,7 +10,7 @@ Mark lives in Rockford, Michigan, a small town on the Rogue River near Grand Rap
 - Edmonds, Washington; and
 - a few US Army bases.
 
-He lived in Italy for a year in the early 1980s and Turkey for a year in the early 1990s. He earned a degree in political science at The University at Albany, State University of New York.
+He lived in Italy for a year in the early 1980s and Turkey for a year in the early 1990s; he earned a degree in political science at The University at Albany, State University of New York.
 
 Mark works on improving technology systems, services, and processes for Subsplash. He has worked:
 
