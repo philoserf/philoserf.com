@@ -25,6 +25,7 @@ Mark' community service includes:
 
 - four years on his local public library board, including one year as its president;
 - five years on the advisory board of a regional writers’ conference recruiting, selecting, and scheduling presenters and keynote speakers; and
-- as an officer on the executive committee of a few volunteer nonprofit organizations.
+
+He has also been an officer on the executive committee of a few volunteer nonprofit organizations.
 
 _The views expressed here are his own. They are not endorsed, approved, or reviewed by any other person or organization._
