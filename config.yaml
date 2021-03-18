@@ -10,7 +10,7 @@ params:
   keywords: "blog,developer,personal"
   favicon_16: /assets/favicon-16x16.png
   favicon_32: /assets/favicon-32x32.png
-  footercontent: That is all. Nothing to see here. Move along.
+  footercontent: That is all. Nothing more to see here. Move along.
   social:
     - icon: fa fa-github fa-2x
       name: GitHub
