@@ -14,7 +14,7 @@ Reference: [][1]<https://robots.thoughtbot.com/what-is-good-code>
 
 In fairness, this view is valid too.
 
-![xkcd—good code](/images/xkcd-good-code.png)
+![xkcd—good code](xkcd-good-code.png)
 
 [1]: https://robots.thoughtbot.com/what-is-good-code
 [2]: https://xkcd.com/844
