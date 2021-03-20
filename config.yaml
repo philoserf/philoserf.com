@@ -79,3 +79,6 @@ paginate: 20
 pygmentscodefences: true
 pygmentscodefencesguesssyntax: true
 pygmentsstyle: bw
+
+build:
+  writeStats: true

@@ -27,7 +27,6 @@ Source code hygiene.
 - Rebase to reorganize before you offer a pull request.
 - Rebase again to squash before you merge to master.
 
-
 todo
 
 - add why
