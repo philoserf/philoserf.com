@@ -18,7 +18,7 @@ export let options = {
   },
 };
 
-const BASE_URL = "https://philoserf.com";
+const BASE_URL = "http://localhost:1313/";
 
 export default () => {
   http.get(`${BASE_URL}/now`);
