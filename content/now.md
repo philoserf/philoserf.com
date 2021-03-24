@@ -39,7 +39,6 @@ I am …
 - [SS-GB][8]
 - [The One][15]
 - [Tribes of Europa][14]
-- [WandaVision][6]
 
 … studying
 
@@ -56,7 +55,6 @@ I am …
 [3]: https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle_(TV_series)
 [4]: https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)
 [5]: https://en.wikipedia.org/wiki/Ted_Lasso
-[6]: https://en.wikipedia.org/wiki/WandaVision
 [7]: https://en.wikipedia.org/wiki/American_Gods_(TV_series)
 [8]: https://en.wikipedia.org/wiki/SS-GB_(TV_series)
 [9]: https://en.wikipedia.org/wiki/Hunters_(2020_TV_series)
