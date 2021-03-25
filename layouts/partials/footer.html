@@ -2,9 +2,9 @@
 <footer class="footer">
   <section class="container">
     {{ with .Site.Params.footerContent | safeHTML }}
-    <p>{{ . }}</p>
+    {{ . }}
     {{ end }}
-    <p
+    <span
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dct="http://purl.org/dc/terms/"
     >
@@ -47,7 +47,7 @@
           "
           src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
       /></a>
-    </p>
+    </span>
     {{ if not .Site.Params.hideCopyright }} © {{ if (and (.Site.Params.since)
     (lt .Site.Params.since now.Year)) }} {{ .Site.Params.since }} - {{ end }} {{
     now.Year }} {{ with .Site.Params.author }} {{ . }} {{ end }} {{ end }} {{ if
