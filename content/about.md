@@ -32,4 +32,4 @@ _The views expressed here are his own. They are not endorsed, approved, or revie
 
 ![](/media/waterlogue.jpg)
 
-photo credit: "Waterlogue" by Mark Ayers ©2015 all rights reserved.
+credit: "Waterlogue" by Mark Ayers; ©2015, all rights reserved.
