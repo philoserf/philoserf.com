@@ -27,13 +27,20 @@ I am …
 
 … studying
 
-- Welsh, Danish, Arabic, & Latin<br>with [Duolingo][16]
-- American Government: Constitutional Foundations<br>with [Harvard][17]
-- Constitutional Interpretation<br>with [Princeton][17]
-- The Medieval Icelandic Sagas<br>with the [University of Iceland][17]
-- Design Thinking<br>with the [Rochester Institute of Technology][17]
-- Human Odyssey to Political Existentialism<br>with [Tel Aviv University][17]
-- Go, Kubernetes, & Amazon Web Services<br>with [Pluralsight][18]
+- Welsh, Danish, Arabic, & Latin
+  with [Duolingo][16]
+- American Government: Constitutional Foundations
+  with [Harvard][17]
+- Constitutional Interpretation
+  with [Princeton][17]
+- The Medieval Icelandic Sagas
+  with the [University of Iceland][17]
+- Design Thinking
+  with the [Rochester Institute of Technology][17]
+- Human Odyssey to Political Existentialism
+  with [Tel Aviv University][17]
+- Go, Kubernetes, & Amazon Web Services
+  with [Pluralsight][18]
 
 … intermittently watching
 
@@ -41,7 +48,7 @@ I am …
 - [11.22.63][11] 2016
 - [American Gods][7] 2017
 - [The Handmaid’s Tale][4] 2017
-- [Counterpart][12]  2017
+- [Counterpart][12] 2017
 - [SS-GB][8] 2017
 - [For All Mankind][10] 2019
 - [Ted Lasso][5] 2020
