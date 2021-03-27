@@ -28,11 +28,7 @@ params:
   enableTwemoji: true
   colorScheme: auto
   hidecolorschemetoggle: false
-  utterances:
-    repo: philoserf/comments
-    label: utterances
-    issue-term: pathname
-    theme: icy-dark
+
   social:
     - icon: fa fa-github fa-2x
       name: GitHub
