@@ -2,7 +2,7 @@
 title: Now
 ---
 
-Updated: 2020.03.22
+Updated: 2020.03.27
 
 I am …
 
@@ -25,30 +25,30 @@ I am …
 - [Fortuna][1] by Kristyn Merbeth
 - [Caliban‘s War][2] by James S. A. Corey
 
-… intermittently watching
-
-- [The Man in the High Castle][3]
-- [The Handmaid’s Tale][4]
-- [Ted Lasso][5]
-- [American Gods][7]
-- [Counterpart][12]
-- [For All Mankind][10]
-- [11.22.63][11]
-- [Hunters][9]
-- [Lupin][13]
-- [SS-GB][8]
-- [The One][15]
-- [Tribes of Europa][14]
-
 … studying
 
-- Welsh, Danish, Arabic, & Latin with [Duolingo][16]
-- American Government: Constitutional Foundations with [Harvard][17]
-- Constitutional Interpretation with [Princeton][17]
-- The Medieval Icelandic Sagas with the [University of Iceland][17]
-- Design Thinking with the [Rochester Institute of Technology][17]
-- Human Odyssey to Political Existentialism with [Tel Aviv University][17]
-- Go, Kubernetes, & Amazon Web Services with [Pluralsight][18]
+- Welsh, Danish, Arabic, & Latin<br>with [Duolingo][16]
+- American Government: Constitutional Foundations<br>with [Harvard][17]
+- Constitutional Interpretation<br>with [Princeton][17]
+- The Medieval Icelandic Sagas<br>with the [University of Iceland][17]
+- Design Thinking<br>with the [Rochester Institute of Technology][17]
+- Human Odyssey to Political Existentialism<br>with [Tel Aviv University][17]
+- Go, Kubernetes, & Amazon Web Services<br>with [Pluralsight][18]
+
+… intermittently watching
+
+- [The Man in the High Castle][3] 2015
+- [11.22.63][11] 2016
+- [American Gods][7] 2017
+- [The Handmaid’s Tale][4] 2017
+- [Counterpart][12]  2017
+- [SS-GB][8] 2017
+- [For All Mankind][10] 2019
+- [Ted Lasso][5] 2020
+- [Hunters][9] 2020
+- [Lupin][13] 2021
+- [The One][15] 2021
+- [Tribes of Europa][14] 2021
 
 [1]: https://www.hachettebookgroup.com/titles/kristyn-merbeth/fortuna/9780316453998/
 [2]: https://en.wikipedia.org/wiki/Caliban%27s_War
