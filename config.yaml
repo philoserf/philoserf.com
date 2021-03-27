@@ -92,3 +92,7 @@ privacy:
     simple: true
   youtube:
     privacyEnhanced: true
+
+disableKinds:
+  - taxonomy
+  - term
