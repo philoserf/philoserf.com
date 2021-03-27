@@ -78,3 +78,17 @@ pygmentsstyle: bw
 
 build:
   writeStats: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    simple: true
+  vimeo:
+    simple: true
+  youtube:
+    privacyEnhanced: true
