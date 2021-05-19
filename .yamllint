@@ -1,0 +1,20 @@
+extends: default
+
+ignore: |
+  node_modules/
+  resources/
+  public/
+  .github/workflows/build.yml
+
+yaml-files:
+  - "*.yaml"
+  - "*.yml"
+  - ".yamllint"
+
+rules:
+  line-length: disable
+  braces:
+    max-spaces-inside: 1
+  indentation:
+    spaces: consistent
+  document-start: disable

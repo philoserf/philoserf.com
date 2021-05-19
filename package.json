@@ -1,0 +1,32 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for philoserf.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philoserf/sandbox.git"
+  },
+  "homepage": "https://github.com/philoserf/sandbox#readme",
+  "bugs": {
+    "url": "https://github.com/philoserf/sandbox/issues"
+  },
+  "author": "Mark Ayers",
+  "license": "Unlicense",
+  "keywords": [
+    "hugo",
+    "sandbox",
+    "themeless"
+  ],
+  "scripts": {
+    "test": "task serve"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "4.0.3",
+    "autoprefixer": "10.2.5",
+    "markdownlint-cli2": "0.1.3",
+    "postcss": "8.2.15",
+    "postcss-cli": "8.3.1",
+    "prettier": "2.2.1",
+    "prettier-plugin-go-template": "0.0.10"
+  }
+}

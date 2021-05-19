@@ -1,0 +1,82 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+    <section>
+      <h3>Recent article</h3>
+      {{ range first 1 (where .Site.RegularPages "Section" "articles") }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+          {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+          {{ .Summary | truncate 80 }}
+        </p>
+      {{ end }}
+    </section>
+    <section>
+      <h3>Featured</h3>
+      {{ range .Site.Pages }}
+        {{ if isset .Params "featured" }}
+          <p>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+            {{ .Summary | truncate 80 }}
+          </p>
+        {{ end }}
+      {{ end }}
+    </section>
+    <section>
+      <h3>Recently updated note</h3>
+      {{ range first 1 (where .Site.RegularPages "Section" "notes") }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+          {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+          {{ .Summary | truncate 80 }}
+        </p>
+      {{ end }}
+    </section>
+    <section>
+      <h3>Pinned</h3>
+      {{ range .Site.Pages }}
+        {{ if isset .Params "pinned" }}
+          <p>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+            {{ .Summary | truncate 80 }}
+          </p>
+        {{ end }}
+      {{ end }}
+    </section>
+  </main>
+{{ end }}
+{{ define "footer" }}
+  <hr />
+  <nav>
+    <a href="/topics/">Index</a> &vert;
+    <a
+      target="_blank"
+      href="https://www.google.com/search?q=site%3Aphiloserf.com"
+      >Search</a
+    >
+  </nav>
+  <p><a href="/">&hellip;</a></p>
+  <p>
+    <a property="dct:title" rel="cc:attributionURL" href="{{ .RelPermalink }}"
+      >{{ .Site.Title }}</a
+    >
+    is &copy;1983–{{ now.Format "2006" }} by
+    <a
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:creator"
+      href="/about/"
+      >Mark Ayers</a
+    >
+    and is licensed to you
+    <a
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      href="http://creativecommons.org/licenses/by/4.0/"
+      >CC BY 4.0</a
+    >.<br />Exceptions have a seperate attribution and license statement.
+  </p>
+{{ end }}

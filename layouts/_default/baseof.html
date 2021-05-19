@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <!-- titles and descriptions -->
+    <title>
+      {{ block "title" . }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+    </title>
+    <meta name="description" content="{{ $.Description | truncate 150 }}" />
+    <!-- facebook -->
+    <meta property="og:title" content="{{ .Title }} &vert; {{ .Site.Title }}" />
+    <meta
+      property="og:description"
+      content="{{ $.Description | truncate 150 }}"
+    />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{- $img := resources.Get "waterlogue.jpg" -}}
+    {{ $img := $img.Fill "1200x630 webp q90 lanczos" }}
+    <meta property="og:image" content="{{ $img.Permalink }}" />
+    <meta property="og:type" content="website" />
+    <!-- twitter -->
+    <meta
+      name="twitter:title"
+      content="{{ .Title }} &vert; {{ .Site.Title }}"
+    />
+    <meta
+      name="twitter:description"
+      content="{{ $.Description | truncate 150 }}"
+    />
+    <meta property="twitter:url" content="{{ .Permalink }}" />
+    {{- $img := resources.Get "waterlogue.jpg" -}}
+    {{ $img := $img.Fill "4096x4096 webp q90 lanczos" }}
+    <meta name="twitter:image" content="{{ $img.Permalink }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="philoserf.com" />
+    <!-- favicon+ -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- inline css -->
+    {{ with resources.Get "base.css" | postCSS | minify | resources.PostProcess }}
+      <style>
+        {{ .Content | safeCSS }}
+      </style>
+    {{ end }}
+    <!-- feeds -->
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <!-- intelligence -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "{{ $.Site.Params.cf_token }}"}'
+    ></script>
+    {{ hugo.Generator }}
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">The views expressed</a></h1>
+      <hr />
+      <nav>
+        <a href="/now/">Now</a> &vert;
+        <a href="/the-rules/">The rules</a> &vert;
+        <a href="/articles/">Articles</a> &vert;
+        <a href="/notes/">Notes</a> &vert;
+        <a href="/about/">About</a>
+      </nav>
+      <p><a href="/">&hellip;</a></p>
+    </header>
+    {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
+    <footer>
+      {{ block "footer" . }}{{ end }}
+    </footer>
+  </body>
+</html>

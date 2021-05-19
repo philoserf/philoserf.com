@@ -1,0 +1,13 @@
+/* TEAM */
+Writer/Editor/Publisher: Mark Ayers
+Site: https://philoserf.com/about/
+Twitter: @philoserf
+Location: greater Grand Rapids, Michigan, USA
+
+/* SITE */
+Last update: 2021-04-20
+Hosting: GitHub Pages, Cloudflare
+Construction: Hugo, Visual Studio Code, zsh, git
+Content: Drafts, MindNode, Things
+Tools: MacBook, iPad, iPhone, Paper, Pen, & Ink
+Typeset: OpenDyslexic

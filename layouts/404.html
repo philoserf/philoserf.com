@@ -1,0 +1,52 @@
+{{ define "title" }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <h2>Page Not Found</h2>
+  <p>
+    We lost the page you were seeking. There has been a mistake. I am certain it
+    is not your mistake. Most content gets listed in the
+    <a href="/topics/">Index</a>. Give that a try.
+  </p>
+  <p>
+    You can always go <a href="/">Home</a>. "There is no place like home," they
+    say.
+  </p>
+  <p>
+    And, finally, Google may have
+    <a href="https://www.google.com/search?q=site%3A{{ .Site.BaseURL }}"
+      >indexed</a
+    >
+    the sought after page. Whatever you decide to do next—please—have a great
+    day doing it.
+  </p>
+{{ end }}
+{{ define "footer" }}
+  <hr />
+  <nav>
+    <a href="/topics/">Index</a> &vert;
+    <a
+      target="_blank"
+      href="https://www.google.com/search?q=site%3Aphiloserf.com"
+      >Search</a
+    >
+  </nav>
+  <p>
+    <a property="dct:title" rel="cc:attributionURL" href="{{ .RelPermalink }}"
+      >{{ .Site.Title }}</a
+    >
+    is &copy;1983–{{ now.Format "2006" }} by
+    <a
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:creator"
+      href="/about/"
+      >Mark Ayers</a
+    >
+    and is licensed to you
+    <a
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      href="http://creativecommons.org/licenses/by/4.0/"
+      >CC BY 4.0</a
+    >.<br />Exceptions have a seperate attribution and license statement.
+  </p>
+{{ end }}

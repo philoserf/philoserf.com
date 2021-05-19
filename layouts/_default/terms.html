@@ -1,0 +1,161 @@
+{{ define "title" }}Index &vert; {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <main>
+    <header><h2>Index</h2></header>
+    <section>
+      <header>
+        <h3>Topics</h3>
+      </header>
+      <main>
+        <div class="tagcloud">
+          {{ if ne (len $.Site.Taxonomies.topics) 0 }}
+            {{ $largestFontSize := 1.4 }}
+            {{ $smallestFontSize := 0.75 }}
+            {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+            {{ $max := add (len (index $.Site.Taxonomies.topics.ByCount 0).Pages) 1 }}
+            {{ $min := len (index $.Site.Taxonomies.topics.ByCount.Reverse 0).Pages }}
+            {{ $spread := sub $max $min }}
+            {{ $fontStep := div $fontSpread $spread }}
+            {{ range $name, $taxonomy := $.Site.Taxonomies.topics }}
+              {{ $tagCount := len $taxonomy.Pages }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
+              {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+              <a
+                href="{{ "/topics/" | relURL }}{{ $name | urlize }}/"
+                class="tagcloud-item"
+                style="font-size: {{ $currentFontSize }}rem;"
+              >
+                {{ $name }}<sup>{{ $tagCount }}</sup>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </main>
+      <footer>
+        <table>
+          <td style="width: 50%">
+            <dl>
+              <dt>Aside</dt>
+              <dd>
+                Asides are less intentional, short, unedited, and perhaps,
+                ill-considered, comments that may not relate directly to the
+                main subject of the site. They are a digression. They are also
+                all too common.
+              </dd>
+              <dt>Reaction</dt>
+              <dd>
+                Reactions are a response to a moment. A response, answer, reply,
+                rejoinder, retort, riposte, or feedback. Watch out. They might
+                be rants.
+              </dd>
+              <dt>Reflection</dt>
+              <dd>
+                Reflections follow the moments they comment upon and reflect
+                upon what has come to pass.
+              </dd>
+              <dt>Technology</dt>
+              <dd>
+                Expect these since I work as an information technology
+                professional for my salary/wage.
+              </dd>
+            </dl>
+          </td>
+          <td style="width: 50%">
+            <dl>
+              <dt>Kit</dt>
+              <dd>
+                The kit articles cover stuff. I have the tools and the toys I
+                like, and sometimes those I do not like. Here I comment upon
+                those tools.
+              </dd>
+              <dt>Fiction</dt>
+              <dd>
+                Fiction is made-up stuff. It is fantasy, fake news, fever
+                dreams, and it may be more authentic than anything else you will
+                ever read.
+              </dd>
+              <dt>Poetry</dt>
+              <dd>
+                Poetry is poetry. It may be my own, or I may be highlighting the
+                poetry of others.
+              </dd>
+              <dt>Art</dt>
+              <dd>
+                Art just is. Anything art might mean belongs to you. Heck. Who
+                are we fooling? Every piece here is what you think it is.
+              </dd>
+            </dl>
+          </td>
+        </table>
+      </footer>
+    </section>
+    <section>
+      <header>
+        <h3>Terms</h3>
+        <p>
+          These are an unlimited, and comprehensive, set of tags used to
+          classify articles, notes, and other pages.
+        </p>
+      </header>
+      <main>
+        <div class="tagcloud">
+          {{ if ne (len $.Site.Taxonomies.terms) 0 }}
+            {{ $largestFontSize := 1.4 }}
+            {{ $smallestFontSize := 0.75 }}
+            {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+            {{ $max := add (len (index $.Site.Taxonomies.terms.ByCount 0).Pages) 1 }}
+            {{ $min := len (index $.Site.Taxonomies.terms.ByCount.Reverse 0).Pages }}
+            {{ $spread := sub $max $min }}
+            {{ $fontStep := div $fontSpread $spread }}
+            {{ range $name, $taxonomy := $.Site.Taxonomies.terms }}
+              {{ $tagCount := len $taxonomy.Pages }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
+              {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+              <a
+                href="{{ "/terms/" | relURL }}{{ $name | urlize }}/"
+                class="tagcloud-item"
+                style="font-size: {{ $currentFontSize }}rem;"
+              >
+                {{ $name }}<sup>{{ $tagCount }}</sup>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </main>
+    </section>
+  </main>
+{{ end }}
+{{ define "footer" }}
+  <hr />
+  <nav>
+    <a href="/topics/">Index</a> &vert;
+    <a
+      target="_blank"
+      href="https://www.google.com/search?q=site%3Aphiloserf.com"
+      >Search</a
+    >
+  </nav>
+  <p><a href="/">&hellip;</a></p>
+  <p>
+    <a property="dct:title" rel="cc:attributionURL" href="{{ .RelPermalink }}"
+      >{{ .Site.Title }}</a
+    >
+    is &copy;1983–{{ now.Format "2006" }} by
+    <a
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:creator"
+      href="/about/"
+      >Mark Ayers</a
+    >
+    and is licensed to you
+    <a
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      href="http://creativecommons.org/licenses/by/4.0/"
+      >CC BY 4.0</a
+    >.<br />Exceptions have a seperate attribution and license statement.
+  </p>
+{{ end }}

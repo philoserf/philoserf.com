@@ -1,0 +1,41 @@
+baseURL: https://philoserf.com/
+title: The views expressed
+languageCode: en-us
+
+params:
+  description: A work in progress using Hugo without a theme
+  doamin: philoserf.com
+  cf_token: df210b1ebab34c97949b57a674606ef3
+
+taxonomies:
+  category: topics
+  tag: terms
+
+build:
+  writeStats: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    simple: true
+    enableDNT: true
+  vimeo:
+    simple: true
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
+markup:
+  highlight:
+    style: github
