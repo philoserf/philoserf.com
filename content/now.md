@@ -1,26 +1,26 @@
 ---
 title: Now
 description: ""
-date: 2021-05-09
-topics: [aside]
-terms: [gratitude, focus, dreams, list]
+date: 2021-05-20
+terms: [gratitude, focus, dreams, list, seattle]
 ---
 
-### COVID-19 STATUS: Pfizer-BioNTech Vaccine Dose #2
+### SARS CoV-2/COVID-19 status—fully vaccinated with [Pfizer-BioNTech mRNA vaccine][98]
 
 I am …
 
-- aware of seasons in a renewed way given the return to a midwestern viewpoint
-- going back to Seattle for a visit in late May
+- enjoying my small town as summer arrives and spirits rise
+- in the greater Seattle area until early June
 
 … grateful for
 
-- my wife and our relationship
 - the change in pace and focus brought on by pandemic isolation
+- my wife and our relationship
 
 … dreaming of
 
 - the end of the pandemic and the life beyond
+- find a new cadence that includes more than my pod people
 
 … reading
 
@@ -34,3 +34,4 @@ This is a [Now][99] page. You should have one too.
 [1]: https://us.macmillan.com/books/9781250081193
 [2]: https://www.hachettebookgroup.com/titles/kristyn-merbeth/fortuna/9780316453998/
 [99]: https://nownownow.com/about
+[98]: https://www.pfizer.com/news/hot-topics/the_facts_about_pfizer_and_biontech_s_covid_19_vaccine
