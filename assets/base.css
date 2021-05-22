@@ -182,9 +182,9 @@ template {
 /* base.css */
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/OpenDyslexic-Regular.woff2"),
-    url("/fonts/OpenDyslexic-Regular.woff"),
-    url("/fonts/OpenDyslexic-Regular.otf");
+  src: url("/fonts/opendyslexic-regular.woff2"),
+    url("/fonts/opendyslexic-regular.woff"),
+    url("/fonts/opendyslexic-regular.otf");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -192,9 +192,9 @@ template {
 
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/OpenDyslexic-Italic.woff2"),
-    url("/fonts/OpenDyslexic-Italic.woff"),
-    url("/fonts/OpenDyslexic-Italic.otf");
+  src: url("/fonts/opendyslexic-italic.woff2"),
+    url("/fonts/opendyslexic-italic.woff"),
+    url("/fonts/opendyslexic-italic.otf");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -202,8 +202,8 @@ template {
 
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/OpenDyslexic-Bold.woff2"),
-    url("/fonts/OpenDyslexic-Bold.woff"), url("/fonts/OpenDyslexic-Bold.otf");
+  src: url("/fonts/opendyslexic-bold.woff2"),
+    url("/fonts/opendyslexic-bold.woff"), url("/fonts/opendyslexic-bold.otf");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -211,9 +211,9 @@ template {
 
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/OpenDyslexic-BoldItalic.woff2"),
-    url("/fonts/OpenDyslexic-BoldItalic.woff"),
-    url("/fonts/OpenDyslexic-BoldItalic.otf");
+  src: url("/fonts/opendyslexic-bolditalic.woff2"),
+    url("/fonts/opendyslexic-bolditalic.woff"),
+    url("/fonts/opendyslexic-bolditalic.otf");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -221,9 +221,9 @@ template {
 
 @font-face {
   font-family: "opendyslexic-mono";
-  src: url("/fonts/OpenDyslexicMono-Regular.woff2"),
-    url("/fonts/OpenDyslexicMono-Regular.woff"),
-    url("/fonts/OpenDyslexicMono-Regular.otf");
+  src: url("/fonts/opendyslexic-mono-regular.woff2"),
+    url("/fonts/opendyslexic-mono-regular.woff"),
+    url("/fonts/opendyslexic-mono-regular.otf");
   font-weight: normal;
   font-display: swap;
 }
