@@ -9,14 +9,14 @@ terms: [poem]
 
 ```plain
 More poetry is written
-Than every will be read
-And still,
-We apply pen to paper.
+Than every will be read.
+
+Still, we apply pen to paper.
 
 Scratch and slide
-The words unfold
+Words unfold
 Are found.
 
-Melody of voice,
+Melody in voice,
 Expressed.
 ```
