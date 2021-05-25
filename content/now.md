@@ -5,7 +5,7 @@ date: 2021-05-25
 terms: [gratitude, focus, dreams, list, seattle]
 ---
 
-### SARS CoV-2/COVID-19 status—fully vaccinated with [Pfizer-BioNTech mRNA vaccine][98]
+### SARS CoV-2/COVID-19 status—fully vaccinated [Pfizer-BioNTech][98]
 
 I am …
 
