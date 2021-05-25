@@ -1,7 +1,7 @@
 ---
 title: Now
 description: ""
-date: 2021-05-20
+date: 2021-05-25
 terms: [gratitude, focus, dreams, list, seattle]
 ---
 
@@ -9,7 +9,6 @@ terms: [gratitude, focus, dreams, list, seattle]
 
 I am …
 
-- enjoying my small town as summer arrives and spirits rise
 - in the greater Seattle area until early June
 
 … grateful for
@@ -20,7 +19,7 @@ I am …
 … dreaming of
 
 - the end of the pandemic and the life beyond
-- find a new cadence that includes more than my pod people
+- finding a new cadence that includes more than my pod people
 
 … reading
 
