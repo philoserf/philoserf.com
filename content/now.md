@@ -1,7 +1,7 @@
 ---
 title: Now
 description: ""
-date: 2021-05-25
+date: 2021-06-12
 terms: [gratitude, focus, dreams, list, seattle]
 ---
 
@@ -9,28 +9,33 @@ terms: [gratitude, focus, dreams, list, seattle]
 
 I am …
 
-- in the greater Seattle area until early June
+- in back _**home**_ in the midwest after a too short visit to the Seattle area
 
 … grateful for
 
-- the change in pace and focus brought on by pandemic isolation
 - my wife and our relationship
 
 … dreaming of
 
-- the end of the pandemic and the life beyond
-- finding a new cadence that includes more than my pod people
+- the _**many**_ trips and gatherings ahead, including 
+- the Rockford gathering in July
+- an, as yet, unplanned road trip in August
+- my nieces wedding in September 
+- a company gathering in early November
+- another wedding in November 
+- a cruise in November 
+- and a, hopefully quiet, December
 
 … reading
 
-- _[The Hungry Brain][1]_ by Stephan Guyenet; Flatiron Books, 2017
+- _[The Templars; the Rise and Fall of God's Holy warriors][1]_ by Dan Jones; Head of Zeus, 2017
 - _[Fortuna][2]_ by Kristyn Merbeth; Hachette Book Group, 2019
 
 This is a [Now][99] page. You should have one too.
 
 <!-- ref -->
 
-[1]: https://us.macmillan.com/books/9781250081193
+[1]: https://headofzeus.com/books/9781781858905
 [2]: https://www.hachettebookgroup.com/titles/kristyn-merbeth/fortuna/9780316453998/
 [99]: https://nownownow.com/about
 [98]: https://www.pfizer.com/news/hot-topics/the_facts_about_pfizer_and_biontech_s_covid_19_vaccine
