@@ -18,14 +18,14 @@ I am …
 … dreaming of
 
 - the **many** trips and gatherings ahead, including 
-- the Rockford gathering in July
-- an, as yet, unplanned road trip in August
-- my nieces wedding in September 
-- an overnight, or long weekend, hiking trip in October
-- a company gathering in early November
-- another wedding in November 
-- a cruise in November 
-- and a, hopefully quiet, December
+  - the Rockford gathering in July
+  - an, as yet, unplanned road trip in August
+  - my nieces wedding in September 
+  - an overnight, or long weekend, hiking trip in October
+  - a company gathering in early November
+  - another wedding in November 
+  - a cruise in November 
+  - and a, hopefully quiet, December
 
 … reading
 
