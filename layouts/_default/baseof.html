@@ -75,8 +75,6 @@
       <p><a href="/">&hellip;</a></p>
     </header>
     {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
-    <footer>
-      {{ block "footer" . }}{{ end }}
-    </footer>
+    <footer>{{ block "footer" . }}{{ end }}</footer>
   </body>
 </html>
