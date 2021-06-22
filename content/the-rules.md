@@ -1,7 +1,7 @@
 ---
 title: The rules
 description: ""
-date: 2021-04-01
+date: 2021-06-22
 topics: [technology]
 terms:
   [
