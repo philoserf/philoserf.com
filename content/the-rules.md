@@ -30,7 +30,7 @@ Keep it simple. Make it when you need it.
 - If it has a name, do not give it another name.
 - If you have given it a name, do not give it another name.
 - Start with one file until you need another file.
-- Split a file when it meeds it.
+- Split a file when it needs it.
 - Merge a file into another when it is not needed.
 - Start with one folder until you need another folder.
 - Create a subfolder when it is needed.
@@ -40,7 +40,7 @@ Surrender or have a reason.
 
 - Adapt to the default configuration.
 - After a sincere effort to adapt fails, change the default configuration.
-- Do not think about lint and style. Tools can handle those.
+- Do not think about lint and style. Use tools to handle those.
 
 All the continuous things.
 
