@@ -1,7 +1,7 @@
 ---
 title: Now
 description: ""
-date: 2021-06-12
+date: 2021-07-08
 terms: [gratitude, focus, dreams, list, seattle]
 ---
 
@@ -9,7 +9,7 @@ terms: [gratitude, focus, dreams, list, seattle]
 
 I am …
 
-- back **home** in the midwest after a, too short, visit to the Seattle area
+- worn down by the lingering effects of our global pandemic
 
 … grateful for
 
